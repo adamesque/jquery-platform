@@ -14,7 +14,7 @@ How to use
       $(document).ready(function(){
 
         // Returns an array with platform info.
-        var platform =  $.platform();
+        var platform = $.platform();
 
       });
     </script>
