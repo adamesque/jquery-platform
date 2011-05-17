@@ -88,7 +88,7 @@
             };
 
             // Based on the platform, define the device type.
-            platformData['desktop'] = platformData['Mac'] || platformData['Windows'] || (platformData['Linux'] && !platformData['Anroid']);
+            platformData['desktop'] = platformData['Mac'] || platformData['Windows'] || (platformData['Linux'] && !platformData['Android']);
             platformData['tablet'] = platformData['iPad'];
             platformData['phone'] = !platformData['desktop'] && !platformData['tablet'];
             platformData['iOS'] = platformData['iPhone'] || platformData['iPad'] || platformData['iPod'];
